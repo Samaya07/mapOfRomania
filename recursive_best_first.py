@@ -27,8 +27,7 @@ class Graph:
          #               "Giurgiu":260,"Pitesti":100,"Fagaras":0,"Rimnicu":90,"Craiova":200}
     def actions(self,node):
         return self.edges[node]
-   # def initial_state(self):
-   #     return self.initial
+        
     def goal_test(self,node):
         if node==self.goal:
             return True
